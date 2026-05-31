@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in HTML</title>
+</head>
+<body>
+
+    <h2>Student Registration Form :-</h2>
+
+    <form>
+
+        <h4>Personal Information:</h4>
+
+        Enter Your First Name:
+        <input type="text" minlength="15" maxlength="30" />
+        <br><br>
+
+        Enter Your Last Name:
+        <input type="text" minlength="15" maxlength="30" />
+        <br><br>
+
+        Date of Birth:
+        <input type="date" id="dob" />
+        <br><br>
+
+        Age:
+        <input type="number" id="age" readonly />
+        <br><br>
+
+        Photograph:
+        <input type="file" />
+        <br><br>
+
+        <h4>Contact Details:</h4>
+
+        Enter your Mobile Number:
+        <input type="tel" pattern="[0-9]{10}" />
+        <br><br>
+
+        Enter Your Residential Address:
+        <input type="text" />
+        <br><br>
+
+        Enter your City:
+        <select>
+            <option>Mumbai</option>
+            <option>Delhi</option>
+            <option>Chennai</option>
+            <option>Kolkata</option>
+        </select>
+        <br><br>
+
+        Enter your State:
+        <select>
+            <option>Maharashtra</option>
+            <option>Delhi</option>
+            <option>Tamil Nadu</option>
+            <option>West Bengal</option>
+        </select>
+        <br><br>
+
+        Enter your Pincode:
+        <input type="number" />
+        <br><br>
+
+        <h4>Academic Information:</h4>
+
+        Student ID:
+        <input type="text" pattern="[A-Za-z0-9]{8}" />
+        <br><br>
+
+        Enter your Course:
+        <input type="radio" name="course"> B.Tech
+        <input type="radio" name="course"> MBA
+        <input type="radio" name="course"> BCA
+        <input type="radio" name="course"> B.Sc
+        <br><br>
+
+        Enter your Department:
+        <input type="radio" name="dept"> Computer Science
+        <input type="radio" name="dept"> Finance
+        <input type="radio" name="dept"> Information Technology
+        <input type="radio" name="dept"> Psychology
+        <br><br>
+
+        Previous College Name:
+        <input type="text" />
+        <br><br>
+
+        Admission Year:
+        <input type="number" min="2000" max="2024" />
+        <br><br>
+
+        <h4>Parent/Guardian Information:</h4>
+
+        Father's Name:
+        <input type="text" />
+        <br><br>
+
+        Mother's Name:
+        <input type="text" />
+        <br><br>
+
+        Guardian's Name:
+        <input type="text" />
+        <br><br>
+
+        Parent's Contact Number:
+        <input type="tel" pattern="[0-9]{10}" />
+        <br><br>
+
+        Guardian's Contact Number:
+        <input type="tel" pattern="[0-9]{10}" />
+        <br><br>
+
+        <h4>Additional Information:</h4>
+
+        Nationality:
+        <input type="text" />
+        <br><br>
+
+        Blood Group:
+        <select>
+            <option>A+</option>
+            <option>A-</option>
+            <option>B+</option>
+            <option>B-</option>
+            <option>AB+</option>
+            <option>AB-</option>
+            <option>O+</option>
+            <option>O-</option>
+        </select>
+        <br><br>
+
+        Category:
+        <input type="radio" name="category"> General
+        <input type="radio" name="category"> OBC
+        <input type="radio" name="category"> SC
+        <input type="radio" name="category"> ST
+        <br><br>
+
+        Hobbies:
+        <input type="checkbox"> Reading
+        <input type="checkbox"> Writing
+        <input type="checkbox"> Playing Sports
+        <input type="checkbox"> Traveling
+        <br><br>
+
+        <h4>Document Upload:</h4>
+
+        Passport Size Photo:
+        <input type="file" />
+        <br><br>
+
+        Identity Proof:
+        <input type="file" />
+        <br><br>
+
+        Previous Academic Marksheets:
+        <input type="file" />
+        <br><br>
+
+        <h4>Declaration:</h4>
+
+        Student Declaration:
+        <input type="checkbox" />
+        I hereby declare that the information provided above is true and accurate to the best of my knowledge.
+        <br><br>
+
+        Parent/Guardian Declaration:
+        <input type="checkbox" />
+        I hereby declare that the information provided above is true and accurate to the best of my knowledge.
+        <br><br>
+
+        Signature:
+        <input type="text" />
+        <br><br>
+
+        Date:
+        <input type="date" />
+        <br><br>
+
+        Comments:
+        <textarea rows="4" cols="50" placeholder="Enter comments here... 👇"></textarea>
+        <input type="submit" value="Submit">
+        <br><br>
+
+        <input type="reset" value="Reset">
+
+    </form>
+    </body>
+    </html>
